@@ -9,7 +9,7 @@
  */
 
 // Include the CSV Reader class
-include "class-csv-reader.php";
+include "csv-reader/class-csv-reader.php";
 
 // Load the CSV for reading
 $csv = new CSV_Reader( 'subs.csv' );
